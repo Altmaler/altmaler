@@ -96,7 +96,7 @@ img {
     padding: 0.5em;
 }
 .blink_me {
-  animation: blinker 1s linear 2;
+  animation: blinker 1s linear 3;
 }
 
 @keyframes blinker {
