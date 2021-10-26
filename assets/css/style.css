@@ -57,9 +57,7 @@ main {
     animation: slide-up 0.9s; 
     color: red;
 }
-#bouncingImg {
-    animation: bounce 5s infinite reverse;
-}
+
 @keyframes slide-up {
     
     from {
@@ -71,14 +69,6 @@ main {
         line-height: 25px;
     }
   }
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-5px);
-    }
-}
 .contact {
     display: flex;
     flex-direction: column;    
@@ -91,9 +81,6 @@ main {
 }
 .contact div h1 {
   margin: 0;
-}
-img {
-    padding: 0.5em;
 }
 .blink_me {
   animation: blinker 1s linear 3;
